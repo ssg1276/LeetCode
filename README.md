@@ -7,3 +7,4 @@ Q4:- https://leetcode.com/problems/next-permutation/
 Q5:- https://leetcode.com/problems/majority-element-ii/
 Q6:- https://leetcode.com/problems/majority-element/
 Q7:- https://leetcode.com/problems/3sum/
+Q8:- https://leetcode.com/problems/maximum-product-subarray/
