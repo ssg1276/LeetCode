@@ -11,3 +11,4 @@ Q8:- https://leetcode.com/problems/maximum-product-subarray/
 Q9:- https://leetcode.com/problems/find-the-duplicate-number/
 Q10:- https://leetcode.com/problems/subarray-sum-equals-k/
 Q11:- https://leetcode.com/problems/reverse-pairs/
+Q12:- https://leetcode.com/problems/longest-consecutive-sequence/
