@@ -12,3 +12,4 @@ Q9:- https://leetcode.com/problems/find-the-duplicate-number/
 Q10:- https://leetcode.com/problems/subarray-sum-equals-k/
 Q11:- https://leetcode.com/problems/reverse-pairs/
 Q12:- https://leetcode.com/problems/longest-consecutive-sequence/
+Q13:- https://leetcode.com/problems/check-if-array-is-sorted-and-rotated/
