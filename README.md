@@ -15,3 +15,4 @@ Q12:- https://leetcode.com/problems/longest-consecutive-sequence/
 Q13:- https://leetcode.com/problems/check-if-array-is-sorted-and-rotated/
 Q14:- https://leetcode.com/problems/rotate-array/
 Q15:- https://leetcode.com/problems/single-number/
+Q16:-https://leetcode.com/problems/minimum-number-game/
