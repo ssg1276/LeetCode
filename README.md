@@ -20,3 +20,4 @@ Q17:- https://leetcode.com/problems/rearrange-array-elements-by-sign/
 Q18:- https://leetcode.com/problems/plus-one/
 Q19:- https://leetcode.com/problems/length-of-last-word/
 Q20:- https://leetcode.com/problems/find-peak-element/
+Q21:- https://leetcode.com/problems/single-element-in-a-sorted-array/
