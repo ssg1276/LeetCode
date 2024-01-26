@@ -21,3 +21,4 @@ Q18:- https://leetcode.com/problems/plus-one/
 Q19:- https://leetcode.com/problems/length-of-last-word/
 Q20:- https://leetcode.com/problems/find-peak-element/
 Q21:- https://leetcode.com/problems/single-element-in-a-sorted-array/
+Q22:- https://leetcode.com/problems/search-in-rotated-sorted-array/
