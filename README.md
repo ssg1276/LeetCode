@@ -24,3 +24,4 @@ Q21:- https://leetcode.com/problems/single-element-in-a-sorted-array/
 Q22:- https://leetcode.com/problems/search-in-rotated-sorted-array/
 Q23:- https://leetcode.com/problems/search-in-rotated-sorted-array-ii/
 Q24:- https://leetcode.com/problems/koko-eating-bananas/
+Q25:- https://leetcode.com/problems/minimum-number-of-days-to-make-m-bouquets/
