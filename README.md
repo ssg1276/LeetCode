@@ -25,3 +25,4 @@ Q22:- https://leetcode.com/problems/search-in-rotated-sorted-array/
 Q23:- https://leetcode.com/problems/search-in-rotated-sorted-array-ii/
 Q24:- https://leetcode.com/problems/koko-eating-bananas/
 Q25:- https://leetcode.com/problems/minimum-number-of-days-to-make-m-bouquets/
+Q26:- https://leetcode.com/problems/find-the-smallest-divisor-given-a-threshold/
