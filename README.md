@@ -28,3 +28,4 @@ Q25:- https://leetcode.com/problems/minimum-number-of-days-to-make-m-bouquets/
 Q26:- https://leetcode.com/problems/find-the-smallest-divisor-given-a-threshold/
 Q27:- https://leetcode.com/problems/capacity-to-ship-packages-within-d-days/
 Q28:- https://leetcode.com/problems/pascals-triangle-ii/
+Q29:- https://leetcode.com/problems/split-array-largest-sum/
