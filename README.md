@@ -30,3 +30,4 @@ Q27:- https://leetcode.com/problems/capacity-to-ship-packages-within-d-days/
 Q28:- https://leetcode.com/problems/pascals-triangle-ii/
 Q29:- https://leetcode.com/problems/split-array-largest-sum/
 Q30:- https://leetcode.com/problems/unique-number-of-occurrences/
+Q31:- https://leetcode.com/problems/first-letter-to-appear-twice/
