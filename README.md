@@ -32,3 +32,4 @@ Q29:- https://leetcode.com/problems/split-array-largest-sum/
 Q30:- https://leetcode.com/problems/unique-number-of-occurrences/
 Q31:- https://leetcode.com/problems/first-letter-to-appear-twice/
 Q32:- https://leetcode.com/problems/check-if-two-string-arrays-are-equivalent/
+Q33:- https://leetcode.com/problems/find-the-index-of-the-first-occurrence-in-a-string/
