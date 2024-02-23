@@ -34,5 +34,4 @@ Q31:- https://leetcode.com/problems/first-letter-to-appear-twice/
 Q32:- https://leetcode.com/problems/check-if-two-string-arrays-are-equivalent/
 Q33:- https://leetcode.com/problems/find-the-index-of-the-first-occurrence-in-a-string/
 Q34:- https://leetcode.com/problems/jewels-and-stones/
-Q35:- https://leetcode.com/problems/first-letter-to-appear-twice/
-Q36:- https://leetcode.com/problems/contains-duplicate-ii/
+Q35:- https://leetcode.com/problems/contains-duplicate-ii/
