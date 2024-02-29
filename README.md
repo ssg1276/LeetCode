@@ -37,3 +37,4 @@ Q34:- https://leetcode.com/problems/jewels-and-stones/
 Q35:- https://leetcode.com/problems/contains-duplicate-ii/
 Q36:- https://leetcode.com/problems/count-number-of-pairs-with-absolute-difference-k/
 Q37:- https://leetcode.com/problems/find-common-elements-between-two-arrays/
+Q38:- https://leetcode.com/problems/number-of-arithmetic-triplets/
