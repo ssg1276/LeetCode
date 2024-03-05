@@ -40,3 +40,4 @@ Q37:- https://leetcode.com/problems/find-common-elements-between-two-arrays/
 Q38:- https://leetcode.com/problems/number-of-arithmetic-triplets/
 Q39:- https://leetcode.com/problems/count-the-number-of-consistent-strings/
 Q40:- https://leetcode.com/problems/two-out-of-three/
+Q41:- https://leetcode.com/problems/sum-of-unique-elements/description/
