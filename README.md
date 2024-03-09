@@ -42,3 +42,4 @@ Q39:- https://leetcode.com/problems/count-the-number-of-consistent-strings/
 Q40:- https://leetcode.com/problems/two-out-of-three/
 Q41:- https://leetcode.com/problems/sum-of-unique-elements/description/
 Q42:- https://leetcode.com/problems/add-two-numbers/
+Q43:-https://leetcode.com/problems/remove-nth-node-from-end-of-list/
