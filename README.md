@@ -43,3 +43,4 @@ Q40:- https://leetcode.com/problems/two-out-of-three/
 Q41:- https://leetcode.com/problems/sum-of-unique-elements/description/
 Q42:- https://leetcode.com/problems/add-two-numbers/
 Q43:-https://leetcode.com/problems/remove-nth-node-from-end-of-list/
+Q44:- https://leetcode.com/problems/find-maximum-number-of-string-pairs/description/
