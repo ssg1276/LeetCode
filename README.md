@@ -47,3 +47,4 @@ Q44:- https://leetcode.com/problems/find-maximum-number-of-string-pairs/descript
 Q45:- https://leetcode.com/problems/odd-even-linked-list/
 Q46:- https://leetcode.com/problems/reverse-linked-list/
 Q47:-https://leetcode.com/problems/middle-of-the-linked-list/
+Q48:-https://leetcode.com/problems/palindrome-linked-list/
