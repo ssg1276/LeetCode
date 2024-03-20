@@ -52,3 +52,4 @@ Q49:-https://leetcode.com/problems/delete-the-middle-node-of-a-linked-list/
 Q50:-https://leetcode.com/problems/linked-list-cycle-ii/
 Q51:-https://leetcode.com/problems/linked-list-cycle/
 Q52:-https://leetcode.com/problems/intersection-of-two-linked-lists/
+Q53:-https://leetcode.com/problems/merge-two-sorted-lists/
