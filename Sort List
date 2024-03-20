@@ -1,0 +1,69 @@
+Given the head of a linked list, return the list after sorting it in ascending order.
+Example 1:
+
+
+Input: head = [4,2,1,3]
+Output: [1,2,3,4]
+
+SOLUTION:-
+/**
+ * Definition for singly-linked list.
+ * struct ListNode {
+ *     int val;
+ *     ListNode *next;
+ *     ListNode() : val(0), next(nullptr) {}
+ *     ListNode(int x) : val(x), next(nullptr) {}
+ *     ListNode(int x, ListNode *next) : val(x), next(next) {}
+ * };
+ */
+class Solution {
+public:
+  ListNode* mergeTwoLists(ListNode* h1,ListNode* h2){
+    ListNode* dummyNode=new ListNode(-1);
+    ListNode* t1=h1;
+    ListNode* t2=h2;
+    ListNode* temp=dummyNode;
+
+    while(t1!=NULL && t2!=NULL){
+        if(t1->val < t2->val){
+            temp->next=t1;
+            temp=t1;
+            t1=t1->next;
+        }
+        else{
+            temp->next=t2;
+            temp=t2;
+            t2=t2->next;
+        }
+
+    }
+    if(t1) temp->next=t1;
+    else temp->next=t2;
+
+    return dummyNode->next;
+  }
+   ListNode* findMiddle(ListNode* head){
+    ListNode* slow=head;
+    ListNode* fast=head->next;
+    while(fast!=NULL && fast->next!=NULL){
+        slow=slow->next;
+        fast=fast->next->next;
+    }
+    return slow;
+   }
+
+    ListNode* sortList(ListNode* head) {
+        if(head==NULL || head->next==NULL){
+            return head;
+        }
+        ListNode* middle=findMiddle(head);
+        ListNode* right=middle->next;
+        ListNode* left=head;
+        middle->next=NULL;
+
+        left=sortList(left);
+        right=sortList(right);
+
+        return mergeTwoLists(left,right);
+    }
+};
