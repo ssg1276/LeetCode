@@ -1,0 +1,71 @@
+You have a browser of one tab where you start on the homepage and you can visit another url, get back in the history number of steps or move forward in the history number of steps.
+
+Example:
+
+Input:
+["BrowserHistory","visit","visit","visit","back","back","forward","visit","forward","back","back"]
+[["leetcode.com"],["google.com"],["facebook.com"],["youtube.com"],[1],[1],[1],["linkedin.com"],[2],[2],[7]]
+Output:
+[null,null,null,null,"facebook.com","google.com","facebook.com",null,"linkedin.com","google.com","leetcode.com"]
+
+SOLUTION:-
+struct Node {
+    string data;
+    Node* prev;
+    Node* next;
+    
+    Node(string value) : data(value), prev(nullptr), next(nullptr) {}
+};
+
+class BrowserHistory {
+    
+    Node* current;
+public:
+ 
+    
+    BrowserHistory(string homepage) {
+        current=new Node(homepage);
+    }
+    
+    void visit(string url) {
+        Node* newNode=new Node(url);
+        current->next=newNode;
+        newNode->prev=current;
+        current=newNode;
+    }
+    
+    string back(int steps) {
+        while(steps){
+            if(current->prev){
+                current=current->prev;
+            }
+            else{
+                break;
+            }
+            steps--;
+        }
+        return current->data;
+    }
+    
+    string forward(int steps) {
+         while(steps){
+            if(current->next){
+                current=current->next;
+            }
+            else{
+                break;
+            }
+            steps--;
+        }
+        return current->data;
+    }
+    
+};
+
+/**
+ * Your BrowserHistory object will be instantiated and called as such:
+ * BrowserHistory* obj = new BrowserHistory(homepage);
+ * obj->visit(url);
+ * string param_2 = obj->back(steps);
+ * string param_3 = obj->forward(steps);
+ */
