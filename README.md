@@ -56,3 +56,4 @@ Q53:-https://leetcode.com/problems/merge-two-sorted-lists/
 Q54:-https://leetcode.com/problems/sort-list/
 Q55:-https://leetcode.com/problems/rotate-list/
 Q56:-https://leetcode.com/problems/reverse-nodes-in-k-group/
+Q57:-https://leetcode.com/problems/design-browser-history/
