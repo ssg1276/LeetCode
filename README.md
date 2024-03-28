@@ -60,3 +60,4 @@ Q57:-https://leetcode.com/problems/design-browser-history/
 Q58:-https://leetcode.com/problems/copy-list-with-random-pointer/
 Q59:-https://leetcode.com/problems/merge-k-sorted-lists/
 Q60:-https://leetcode.com/problems/power-of-two/
+Q61:-https://leetcode.com/problems/minimum-bit-flips-to-convert-number/
