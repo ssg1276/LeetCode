@@ -1,0 +1,22 @@
+Given a string s consisting only of characters a, b and c.
+Return the number of substrings containing at least one occurrence of all these characters a, b and c.
+
+Example 1:
+Input: s = "abcabc"
+Output: 10
+
+SOLUTION:-
+#include <bits/stdc++.h>
+
+class Solution {
+public:
+    int numberOfSubstrings(string s) {
+        int lastSeen[3]={-1,-1,-1};
+        int cnt=0;
+        for(int i=0;i<s.length();i++){
+                lastSeen[s[i]-'a']=i;
+                cnt=cnt+(1+min({lastSeen[0],lastSeen[1],lastSeen[2]}));
+        }
+        return cnt;
+    }
+};
