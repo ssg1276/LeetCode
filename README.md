@@ -70,3 +70,4 @@ Q67:-https://leetcode.com/problems/longest-substring-without-repeating-character
 Q68:-https://leetcode.com/problems/max-consecutive-ones-iii/
 Q69:-https://leetcode.com/problems/number-of-substrings-containing-all-three-characters/
 Q70:-https://leetcode.com/problems/count-number-of-nice-subarrays/
+Q71:-https://leetcode.com/problems/binary-subarrays-with-sum/description/
