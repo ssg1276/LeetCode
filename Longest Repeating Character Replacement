@@ -1,0 +1,30 @@
+You are given a string s and an integer k. You can choose any character of the string and change it to any other uppercase English character. You can perform this operation at most k times.
+Return the length of the longest substring containing the same letter you can get after performing the above operations.
+
+Example 1:
+Input: s = "ABAB", k = 2
+Output: 4
+
+SOLUTION;-
+class Solution {
+public:
+    int characterReplacement(string s, int k) {
+        int n=s.length();
+        int l=0,r=0,maxf=0,maxlen=0;
+        int hash[26]={0};
+        while(r<n){
+            hash[s[r]-'A']++;
+            maxf=max(maxf,hash[s[r]-'A']);
+
+            if((r-l+1)-maxf>k){
+                hash[s[l]-'A']--;
+                l=l+1;
+            }
+            if((r-l+1)-maxf<=k){
+                maxlen=max(maxlen,(r-l+1));
+            }
+            r++;
+        }
+        return maxlen;
+    }
+};
