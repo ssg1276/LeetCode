@@ -72,3 +72,4 @@ Q69:-https://leetcode.com/problems/number-of-substrings-containing-all-three-cha
 Q70:-https://leetcode.com/problems/count-number-of-nice-subarrays/
 Q71:-https://leetcode.com/problems/binary-subarrays-with-sum/description/
 Q72:-https://leetcode.com/problems/longest-repeating-character-replacement/
+Q73:-https://leetcode.com/problems/spiral-matrix/
