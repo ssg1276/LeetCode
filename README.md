@@ -75,3 +75,4 @@ Q72:-https://leetcode.com/problems/longest-repeating-character-replacement/
 Q73:-https://leetcode.com/problems/spiral-matrix/
 Q74:-https://leetcode.com/problems/4sum/
 Q75:-https://leetcode.com/problems/merge-intervals/
+Q76:-https://leetcode.com/problems/rotate-image/
