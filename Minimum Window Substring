@@ -1,0 +1,47 @@
+Given two strings s and t of lengths m and n respectively, return the minimum window 
+substring of s such that every character in t (including duplicates) is included in the window. If there is no such substring, return the empty string "".
+
+The testcases will be generated such that the answer is unique.
+
+
+Example 1:
+
+Input: s = "ADOBECODEBANC", t = "ABC"
+Output: "BANC"
+
+SOLUTION:-
+class Solution {
+public:
+    string minWindow(string s, string t) {
+        int n=s.length();
+        int m=t.length();
+        int minLen=INT_MAX;
+        int startIndex=-1;
+        int l=0,r=0,cnt=0;
+
+        unordered_map<char, int> hash;
+        for (char c : t) {
+            hash[c]++;
+        }
+           while(r<n){
+            if(hash[s[r]]>0){
+                cnt++;
+            }
+            hash[s[r]]--;
+            while(cnt==m){
+               int windowSize = r - l + 1;
+                if (windowSize < minLen) {
+                    minLen = windowSize;
+                    startIndex = l;
+                }
+                hash[s[l]]++;
+                if(hash[s[l]]>0){
+                    cnt--;
+                }
+               l++;
+            }
+            r++;
+           }
+       return startIndex == -1 ? "" : s.substr(startIndex, minLen);
+    }
+};
