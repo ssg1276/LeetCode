@@ -81,3 +81,4 @@ Q78:-https://leetcode.com/problems/minimum-window-substring/
 Q79:-https://leetcode.com/problems/count-good-numbers/
 Q80:-https://leetcode.com/problems/search-a-2d-matrix/
 Q81:-https://leetcode.com/problems/search-a-2d-matrix-ii/
+Q82:-https://leetcode.com/problems/find-a-peak-element-ii/
