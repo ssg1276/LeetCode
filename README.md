@@ -86,3 +86,4 @@ Q83:-https://leetcode.com/problems/maximum-average-subarray-i/
 Q84:-https://leetcode.com/problems/merge-strings-alternately/
 Q85:-https://leetcode.com/problems/greatest-common-divisor-of-strings/
 Q86:-https://leetcode.com/problems/longest-common-prefix/
+Q87:-https://leetcode.com/problems/minimum-size-subarray-sum/
